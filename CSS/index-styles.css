@@ -1,9 +1,104 @@
 body{
-  background-color: red;
+
+}
+hr{
+  border: 0.5px solid #c2c2c2;
+  width: 50%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.row{
+  margin: 0;
+}
+.navbar-logo{
+  margin-left: 20px;
+  width: 40px;
+  height: 30px;
+}
+.navbar{
+  background-color: #1F3C88;
+}
+.navbar-nav{
+  margin-left: auto;
+}
+.hero-main-heading{
+  color: white;
+  display: inline-block;
+  padding: 10px 0 10px 20px;
+
+}
+.hero-sub-heading{
+  color: white;
+  padding: 0 0 10px 20px;
+
+
+}
+.hero-text{
+  color: #f6f5f5;
+  padding: 20px 10px 10px 20px;
+}
+.our-products-button{
+  background-color: white;
+  border-radius: 50px;
+  border-width: 0;
+  margin: 10px 10px 10px 20px;
+
+}
+.our-products-button:hover{
+  background-color: #EE6F57;
+
+}
+.contact-us-button{
+  background-color: #EE6F57;
+  color: white;
+  border-radius: 50px;
+  border-width: 0;
+  margin: 10px 10px 10px 20px;
 }
 .carousel-image{
   width: 800px;
 }
 .carousel-item{
   text-align: center;
+}
+.carousel-buttons{
+  background-color: #EE6F57;
+  border-radius: 50px;
+  border-width: 0;
+  margin-bottom: 30px;
+}
+#hero-section{
+  background-color: #1F3C88;
+  height: 100vh;
+  padding-top: 120px;
+}
+.carousel-indicators li {
+  background-color: #1F3C88;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  margin: 5px;
+  margin-top: auto;
+}
+.carousel-indicators .active {
+  background-color: #EE6F57;
+}
+#about-us{
+  padding: 50px 100px 25px 100px;
+}
+.info-columns{
+  text-align: center;
+}
+.about-us-icons{
+  font-size: 2em;
+  color:#EE6F57;
+  padding: 10px;
+}
+.section-headings-div{
+  text-align: center;
+}
+.product-headings-div{
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
