@@ -4,7 +4,7 @@
   height: 30px;
 }
 .navbar{
-  background-color: #1F3C88;
+  background-color: #070d59;
 }
 .navbar-nav{
   margin-left: auto;
@@ -30,8 +30,13 @@
   top: 0px;
   /* z-index: 1; */
 
-
-
+}
+hr{
+  border: 0.5px solid #c2c2c2;
+  width: 50%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 25%;
 }
 .nav-link{
   display:inline-block;
@@ -46,6 +51,43 @@
   position: relative;
   margin-top: 100px;
 
+}
+.page-heading{
+  padding: 10px 0 10px 10px;
+  font-family: 'Bodoni Moda', serif;
+  font-size: 3em;
+
+
+}
+.product-headings{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 2em;
+  padding: 10px 0 10px 10px;
+
+}
+#product-1{
+  padding: 20px 0 20px 0;
+}
+#product-2{
+  padding: 10px 0 10px 0;
+}
+.product-info{
+  padding:10px 20px 10px 5px ;
+}
+.place-order-div{
+  text-align: center;
+}
+.contact-us-buttons{
+  background-color: #EE6F57;
+  color: white;
+  border-radius: 50px;
+  border-width: 0;
+  /* margin: 10px 10px 10px 20px; */
+}
+.btn{
+  font-family: 'Montserrat', sans-serif;
+  box-shadow: 1.5px 1.5px 2px black;
 }
 
 /* modal images */

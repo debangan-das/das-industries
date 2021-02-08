@@ -17,7 +17,7 @@ hr{
   height: 30px;
 }
 .navbar{
-  background-color: #1F3C88;
+  background-color: #070d59;
 }
 .navbar-nav{
   margin-left: auto;
@@ -163,7 +163,33 @@ hr{
   background-color:#EE6F57;
   border-width: 0;
 }
+#footer{
+  background-color: #070d59;
+  height: auto;
+  margin-top: 100px;
+  padding: 50px 0 50px 0;
 
+}
+.footer-links{
+  text-decoration: none;
+  color: white;
+  margin: 20px 0 10px 0;
+  font-family: 'Montserrat', sans-serif;
+  display: block;
+  width: inherit;
+}
+.footer-links:hover{
+  color: #EE6F57;
+}
+.footer-headings{
+  color: white;
+  padding: 10px 0 10px 0;
+
+}
+.footer-icons{
+  font-size: 1.8em;
+  padding: 0 10px 0 10px;
+}
 @media screen and (max-width: 1400px) {
 
   .carousel-image{
