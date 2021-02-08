@@ -5,9 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- bootstrap style link -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
-    <!-- javascript style link -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+   <!-- javascript style link -->
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
@@ -16,9 +15,14 @@
     <!-- font awesome link -->
       <script src="https://kit.fontawesome.com/a66082ee16.js" crossorigin="anonymous"></script>
 
+      <!-- Google Fonts -->
+
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda&family=Montserrat&family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="CSS/index-styles.css">
 
-    <title>Das Industries</title>
+    <title>Das Indusries</title>
   </head>
   <body>
 
@@ -81,7 +85,7 @@
           <li data-target="#carouselExampleCaptions" data-slide-to="8"></li>
           <li data-target="#carouselExampleCaptions" data-slide-to="9"></li>
           <li data-target="#carouselExampleCaptions" data-slide-to="10"></li>
-        
+
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -146,11 +150,11 @@
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span><i class="fas fa-chevron-circle-left carousel-arrows" aria-hidden="true"></i></span>
           <span class="sr-only">Previous</span>
         </a>
         <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span><i class="fas fa-chevron-circle-right carousel-arrows" aria-hidden="true"></i></span>
           <span class="sr-only">Next</span>
         </a>
       </div>
@@ -165,37 +169,37 @@
 
 <section id="about-us">
   <div class="section-headings-div">
-    <h3>ABOUT US</h3>
+    <h3 class="section-headings">ABOUT US</h3>
   </div>
 
   <div class="container">
     <div class="row">
       <div class="col-sm-6 col-md-6 col-lg-6 col-xs-6 info-columns">
         <i class="fas fa-warehouse about-us-icons"></i>
-        <p>Year of establishment: 1993</p>
+        <p class="about-us-info">Year of establishment: 1993</p>
       </div>
       <div class="col-sm-6 col-md-6 col-lg-6 col-xs-6 info-columns">
         <i class="fas fa-tools about-us-icons"></i>
-        <p>Nature of business: Manufacturer and supplier</p>
+        <p class="about-us-info">Nature of business: Manufacturer and supplier</p>
       </div>
     </div>
     <div class="row">
       <div class="col-sm-6 col-md-6 col-lg-6 col-xs-6 info-columns">
         <i class="fas fa-balance-scale about-us-icons"></i>
-        <p>Legal status of firm: Proprietor</p>
+        <p class="about-us-info">Legal status of firm: Proprietor</p>
       </div>
       <div class="col-sm-6 col-md-6 col-lg-6 col-xs-6 info-columns">
         <i class="fas fa-file-alt about-us-icons"></i>
-        <p>GST Number: 19AFNPD3598N1ZM</p>
+        <p class="about-us-info">GST Number: 19AFNPD3598N1ZM</p>
       </div>
     </div>
-    <p> Established in the year 1994, we, Das Industries, are leading manufacturer,
+    <p class="about-us-text"> Established in the year 1994, we, Das Industries, are leading manufacturer,
       supplier and exporter of Drill Pipe Wiper, Elevator Balancing Strap, Kelley Wiper & Mud Pump Spares.
       The offered array of these products are manufactured by our experts using premium quality raw material and advanced machines.
       We are constantly looking forward to upgrade our technology and incorporate advanced systems for
       manufacturing components & accessories for Oil Rig Explorations.
     </p>
-    <p> Moreover, a quality control department
+    <p class="about-us-text"> Moreover, a quality control department
       continuously monitors the quality of these products on the basis of some stringent parameters.
       We have a team of diligent professionals, which helps us in offering best quality products to the customers.
       We subject our products to quality control tests based on several parameters and take necessary quality measures.
@@ -204,16 +208,17 @@
       Our exporter countries are East Asia, Middle East, South East Asia and Indian Subcontinent.
     </p>
   </div>
+  <a href="#" class="btn btn-outline-dark see-more-buttons">See more <i class="fas fa-arrow-circle-right"></i></a>
 </section>
 
 <hr>
 
 <div class="section-headings-div">
-  <h3>OUR PRODUCTS</h3>
+  <h3 class="section-headings">OUR PRODUCTS</h3>
 </div>
 
 <div class="product-headings-div">
-  <h4>Tubing Tong Assembly</h4>
+  <h4 class="product-headings">Tubing Tong Assembly</h4>
 </div>
 
 
@@ -227,7 +232,7 @@
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">Customised Mouse Pads</p>
-            <a href="#" class="btn btn-outline-dark order-buttons">See Details</a>
+            <a href="#" class="btn btn-outline-dark product-card-buttons">See Details</a>
           </div>
         </div>
         </div>
@@ -239,7 +244,7 @@
           <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">Send us your company logo or your own design to get customised mouse pads.</p>
-          <a href="#" class="btn btn-outline-dark order-buttons">See Details</a>
+          <a href="#" class="btn btn-outline-dark product-card-buttons">See Details</a>
           </div>
           </div>
     </div>
@@ -251,7 +256,7 @@
           <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">Send us your company logo or your own design to get customised mouse pads.</p>
-          <a href="#" class="btn btn-outline-dark order-buttons">See Details</a>
+          <a href="#" class="btn btn-outline-dark product-card-buttons">See Details</a>
           </div>
           </div>
     </div>
@@ -262,16 +267,16 @@
           <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">Send us your company logo or your own design to get customised mouse pads.</p>
-          <a href="#" class="btn btn-outline-dark order-buttons">See Details</a>
+          <a href="#" class="btn btn-outline-dark product-card-buttons">See Details</a>
           </div>
           </div>
     </div>
   </div>
 </div>
-
+<a href="#" class="btn btn-outline-dark see-more-buttons">See more <i class="fas fa-arrow-circle-right"></i></a>
 <hr>
 <div class="product-headings-div">
-  <h4>Slip Dies</h4>
+  <h4 class="product-headings">Slip Dies</h4>
 </div>
 
 
@@ -285,7 +290,7 @@
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">Customised Mouse Pads</p>
-            <a href="#" class="btn btn-outline-dark order-buttons">See Details</a>
+            <a href="#" class="btn btn-outline-dark product-card-buttons">See Details</a>
           </div>
         </div>
         </div>
@@ -297,7 +302,7 @@
           <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">Send us your company logo or your own design to get customised mouse pads.</p>
-          <a href="#" class="btn btn-outline-dark order-buttons">See Details</a>
+          <a href="#" class="btn btn-outline-dark product-card-buttons">See Details</a>
           </div>
           </div>
     </div>
@@ -309,7 +314,7 @@
           <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">Send us your company logo or your own design to get customised mouse pads.</p>
-          <a href="#" class="btn btn-outline-dark order-buttons">See Details</a>
+          <a href="#" class="btn btn-outline-dark product-card-buttons">See Details</a>
           </div>
           </div>
     </div>
@@ -320,15 +325,16 @@
           <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">Send us your company logo or your own design to get customised mouse pads.</p>
-          <a href="#" class="btn btn-outline-dark order-buttons">See Details</a>
+          <a href="#" class="btn btn-outline-dark product-card-buttons">See Details</a>
           </div>
           </div>
     </div>
   </div>
 </div>
+<a href="#" class="btn btn-outline-dark see-more-buttons">See more <i class="fas fa-arrow-circle-right"></i></a>
 <hr>
 <div class="product-headings-div">
-  <h4>Pipe Fittings and couplings</h4>
+  <h4 class="product-headings">Pipe Fittings and couplings</h4>
 </div>
 
 
@@ -342,7 +348,7 @@
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">Customised Mouse Pads</p>
-            <a href="#" class="btn btn-outline-dark order-buttons">See Details</a>
+            <a href="#" class="btn btn-outline-dark product-card-buttons">See Details</a>
           </div>
         </div>
         </div>
@@ -354,7 +360,7 @@
           <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">Send us your company logo or your own design to get customised mouse pads.</p>
-          <a href="#" class="btn btn-outline-dark order-buttons">See Details</a>
+          <a href="#" class="btn btn-outline-dark product-card-buttons">See Details</a>
           </div>
           </div>
     </div>
@@ -366,7 +372,7 @@
           <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">Send us your company logo or your own design to get customised mouse pads.</p>
-          <a href="#" class="btn btn-outline-dark order-buttons">See Details</a>
+          <a href="#" class="btn btn-outline-dark product-card-buttons">See Details</a>
           </div>
           </div>
     </div>
@@ -377,15 +383,16 @@
           <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">Send us your company logo or your own design to get customised mouse pads.</p>
-          <a href="#" class="btn btn-outline-dark order-buttons">See Details</a>
+          <a href="#" class="btn btn-outline-dark product-card-buttons">See Details</a>
           </div>
           </div>
     </div>
   </div>
 </div>
+<a href="#" class="btn btn-outline-dark see-more-buttons">See more <i class="fas fa-arrow-circle-right"></i></a>
 <hr>
 <div class="product-headings-div">
-  <h4>Rubber Items</h4>
+  <h4 class="product-headings">Rubber Items</h4>
 </div>
 
 
@@ -399,7 +406,7 @@
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">Customised Mouse Pads</p>
-            <a href="#" class="btn btn-outline-dark order-buttons">See Details</a>
+            <a href="#" class="btn btn-outline-dark product-card-buttons">See Details</a>
           </div>
         </div>
         </div>
@@ -411,7 +418,7 @@
           <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">Send us your company logo or your own design to get customised mouse pads.</p>
-          <a href="#" class="btn btn-outline-dark order-buttons">See Details</a>
+          <a href="#" class="btn btn-outline-dark product-card-buttons">See Details</a>
           </div>
           </div>
     </div>
@@ -423,7 +430,7 @@
           <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">Send us your company logo or your own design to get customised mouse pads.</p>
-          <a href="#" class="btn btn-outline-dark order-buttons">See Details</a>
+          <a href="#" class="btn btn-outline-dark product-card-buttons">See Details</a>
           </div>
           </div>
     </div>
@@ -434,15 +441,16 @@
           <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">Send us your company logo or your own design to get customised mouse pads.</p>
-          <a href="#" class="btn btn-outline-dark order-buttons">See Details</a>
+          <a href="#" class="btn btn-outline-dark product-card-buttons">See Details</a>
           </div>
           </div>
     </div>
   </div>
 </div>
+<a href="#" class="btn btn-outline-dark see-more-buttons">See more <i class="fas fa-arrow-circle-right"></i></a>
 <hr>
 <div class="product-headings-div">
-  <h4>Valve Assembly</h4>
+  <h4 class="product-headings">Valve Assembly</h4>
 </div>
 
 
@@ -456,7 +464,7 @@
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">Customised Mouse Pads</p>
-            <a href="#" class="btn btn-outline-dark order-buttons">See Details</a>
+            <a href="#" class="btn btn-outline-dark product-card-buttons">See Details</a>
           </div>
         </div>
         </div>
@@ -468,7 +476,7 @@
           <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">Send us your company logo or your own design to get customised mouse pads.</p>
-          <a href="#" class="btn btn-outline-dark order-buttons">See Details</a>
+          <a href="#" class="btn btn-outline-dark product-card-buttons">See Details</a>
           </div>
           </div>
     </div>
@@ -480,7 +488,7 @@
           <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">Send us your company logo or your own design to get customised mouse pads.</p>
-          <a href="#" class="btn btn-outline-dark order-buttons">See Details</a>
+          <a href="#" class="btn btn-outline-dark product-card-buttons">See Details</a>
           </div>
           </div>
     </div>
@@ -491,15 +499,16 @@
           <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">Send us your company logo or your own design to get customised mouse pads.</p>
-          <a href="#" class="btn btn-outline-dark order-buttons">See Details</a>
+          <a href="#" class="btn btn-outline-dark product-card-buttons">See Details</a>
           </div>
           </div>
     </div>
   </div>
 </div>
+<a href="#" class="btn btn-outline-dark see-more-buttons">See more <i class="fas fa-arrow-circle-right"></i></a>
 <hr>
 <div class="product-headings-div">
-  <h4>Piston Assembly</h4>
+  <h4 class="product-headings">Piston Assembly</h4>
 </div>
 
 
@@ -513,7 +522,7 @@
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">Customised Mouse Pads</p>
-            <a href="#" class="btn btn-outline-dark order-buttons">See Details</a>
+            <a href="#" class="btn btn-outline-dark product-card-buttons">See Details</a>
           </div>
         </div>
         </div>
@@ -525,7 +534,7 @@
           <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">Send us your company logo or your own design to get customised mouse pads.</p>
-          <a href="#" class="btn btn-outline-dark order-buttons">See Details</a>
+          <a href="#" class="btn btn-outline-dark product-card-buttons">See Details</a>
           </div>
           </div>
     </div>
@@ -537,7 +546,7 @@
           <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">Send us your company logo or your own design to get customised mouse pads.</p>
-          <a href="#" class="btn btn-outline-dark order-buttons">See Details</a>
+          <a href="#" class="btn btn-outline-dark product-card-buttons">See Details</a>
           </div>
           </div>
     </div>
@@ -548,15 +557,16 @@
           <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">Send us your company logo or your own design to get customised mouse pads.</p>
-          <a href="#" class="btn btn-outline-dark order-buttons">See Details</a>
+          <a href="#" class="btn btn-outline-dark product-card-buttons">See Details</a>
           </div>
           </div>
     </div>
   </div>
 </div>
+<a href="#" class="btn btn-outline-dark see-more-buttons">See more <i class="fas fa-arrow-circle-right"></i></a>
 <hr>
 <div class="product-headings-div">
-  <h4>Brake shoes</h4>
+  <h4 class="product-headings">Brake shoes</h4>
 </div>
 
 
@@ -570,7 +580,7 @@
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">Customised Mouse Pads</p>
-            <a href="#" class="btn btn-outline-dark order-buttons">See Details</a>
+            <a href="#" class="btn btn-outline-dark product-card-buttons">See Details</a>
           </div>
         </div>
         </div>
@@ -582,7 +592,7 @@
           <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">Send us your company logo or your own design to get customised mouse pads.</p>
-          <a href="#" class="btn btn-outline-dark order-buttons">See Details</a>
+          <a href="#" class="btn btn-outline-dark product-card-buttons">See Details</a>
           </div>
           </div>
     </div>
@@ -594,7 +604,7 @@
           <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">Send us your company logo or your own design to get customised mouse pads.</p>
-          <a href="#" class="btn btn-outline-dark order-buttons">See Details</a>
+          <a href="#" class="btn btn-outline-dark product-card-buttons">See Details</a>
           </div>
           </div>
     </div>
@@ -605,15 +615,16 @@
           <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">Send us your company logo or your own design to get customised mouse pads.</p>
-          <a href="#" class="btn btn-outline-dark order-buttons">See Details</a>
+          <a href="#" class="btn btn-outline-dark product-card-buttons">See Details</a>
           </div>
           </div>
     </div>
   </div>
 </div>
+<a href="#" class="btn btn-outline-dark see-more-buttons">See more <i class="fas fa-arrow-circle-right"></i></a>
 <hr>
 <div class="product-headings-div">
-  <h4>Mud Pump Spares</h4>
+  <h4 class="product-headings">Mud Pump Spares</h4>
 </div>
 
 
@@ -627,7 +638,7 @@
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">Customised Mouse Pads</p>
-            <a href="#" class="btn btn-outline-dark order-buttons">See Details</a>
+            <a href="#" class="btn btn-outline-dark product-card-buttons">See Details</a>
           </div>
         </div>
         </div>
@@ -639,7 +650,7 @@
           <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">Send us your company logo or your own design to get customised mouse pads.</p>
-          <a href="#" class="btn btn-outline-dark order-buttons">See Details</a>
+          <a href="#" class="btn btn-outline-dark product-card-buttons">See Details</a>
           </div>
           </div>
     </div>
@@ -651,7 +662,7 @@
           <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">Send us your company logo or your own design to get customised mouse pads.</p>
-          <a href="#" class="btn btn-outline-dark order-buttons">See Details</a>
+          <a href="#" class="btn btn-outline-dark product-card-buttons">See Details</a>
           </div>
           </div>
     </div>
@@ -662,15 +673,16 @@
           <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">Send us your company logo or your own design to get customised mouse pads.</p>
-          <a href="#" class="btn btn-outline-dark order-buttons">See Details</a>
+          <a href="#" class="btn btn-outline-dark product-card-buttons">See Details</a>
           </div>
           </div>
     </div>
   </div>
 </div>
+<a href="#" class="btn btn-outline-dark see-more-buttons">See more <i class="fas fa-arrow-circle-right"></i></a>
 <hr>
 <div class="product-headings-div">
-  <h4>Other Products</h4>
+  <h4 class="product-headings">Other Products</h4>
 </div>
 
 
@@ -684,7 +696,7 @@
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">Customised Mouse Pads</p>
-            <a href="#" class="btn btn-outline-dark order-buttons">See Details</a>
+            <a href="#" class="btn btn-outline-dark product-card-buttons">See Details</a>
           </div>
         </div>
         </div>
@@ -696,7 +708,7 @@
           <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">Send us your company logo or your own design to get customised mouse pads.</p>
-          <a href="#" class="btn btn-outline-dark order-buttons">See Details</a>
+          <a href="#" class="btn btn-outline-dark product-card-buttons">See Details</a>
           </div>
           </div>
     </div>
@@ -708,7 +720,7 @@
           <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">Send us your company logo or your own design to get customised mouse pads.</p>
-          <a href="#" class="btn btn-outline-dark order-buttons">See Details</a>
+          <a href="#" class="btn btn-outline-dark product-card-buttons">See Details</a>
           </div>
           </div>
     </div>
@@ -719,13 +731,14 @@
           <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">Send us your company logo or your own design to get customised mouse pads.</p>
-          <a href="#" class="btn btn-outline-dark order-buttons">See Details</a>
+          <a href="#" class="btn btn-outline-dark product-card-buttons">See Details</a>
           </div>
           </div>
     </div>
   </div>
 </div>
+<a href="#" class="btn btn-outline-dark see-more-buttons">See more <i class="fas fa-arrow-circle-right"></i></a>
 
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
   </body>
 </html>

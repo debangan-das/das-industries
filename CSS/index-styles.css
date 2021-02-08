@@ -6,6 +6,7 @@ hr{
   width: 50%;
   margin-top: 50px;
   margin-bottom: 50px;
+  margin-left: 25%;
 }
 .row{
   margin: 0;
@@ -21,21 +22,33 @@ hr{
 .navbar-nav{
   margin-left: auto;
 }
+.nav-link{
+  font-family: 'Montserrat', sans-serif;
+}
+.btn{
+  font-family: 'Montserrat', sans-serif;
+  box-shadow: 1.5px 1.5px 2px black;
+}
 .hero-main-heading{
   color: white;
   display: inline-block;
   padding: 10px 0 10px 20px;
+  font-family: 'Bodoni Moda', serif;
+  font-size: 4em;
 
 }
 .hero-sub-heading{
   color: white;
   padding: 0 0 10px 20px;
+  font-family: 'Open Sans', sans-serif;
 
 
 }
 .hero-text{
   color: #f6f5f5;
   padding: 20px 10px 10px 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.25em;
 }
 .our-products-button{
   background-color: white;
@@ -56,7 +69,7 @@ hr{
   margin: 10px 10px 10px 20px;
 }
 .carousel-image{
-  width: 800px;
+  width: 750px;
 }
 .carousel-item{
   text-align: center;
@@ -83,8 +96,32 @@ hr{
 .carousel-indicators .active {
   background-color: #EE6F57;
 }
+.carousel-arrows{
+  color:white;
+  font-size: 2em;
+  background-color: #1F3C88;
+  border-radius: 50%;
+}
+.section-headings{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 3em;
+}
+.about-us-info{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.4em;
+
+}
+.about-us-text{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1em;
+    padding-top: 50px;
+}
 #about-us{
   padding: 50px 100px 25px 100px;
+}
+#about-us h3{
+  padding-bottom: 50px;
 }
 .info-columns{
   text-align: center;
@@ -97,8 +134,40 @@ hr{
 .section-headings-div{
   text-align: center;
 }
+.see-more-buttons{
+  margin-left: 46%;
+  margin-top: 50px;
+  background-color: #EE6F57;
+  color: white;
+  border-radius: 50px;
+  border-width: 0;
+
+}
 .product-headings-div{
   text-align: center;
   padding-top: 50px;
   padding-bottom: 50px;
+}
+.product-headings{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+}
+.product-card-buttons{
+  background-color: white;
+  border-radius: 50px;
+
+
+}
+.product-card-buttons:hover{
+  background-color:#EE6F57;
+  border-width: 0;
+}
+
+@media screen and (max-width: 1400px) {
+
+  .carousel-image{
+    width: 600px;
+  }
+
 }
