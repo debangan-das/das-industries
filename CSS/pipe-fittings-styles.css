@@ -21,6 +21,7 @@
   padding-top: 100px;
   padding-left: 18px;
   background-color: #1F3C88;
+  background-image: linear-gradient(to right,#070d59 , #1F3C88);
   width: auto;
   overflow: scroll;
   position: fixed;
@@ -70,6 +71,9 @@ hr{
   padding: 20px 0 20px 0;
 }
 #product-2{
+  padding: 10px 0 10px 0;
+}
+#product-3{
   padding: 10px 0 10px 0;
 }
 .product-info{
@@ -229,19 +233,6 @@ hr{
 }
 .footer-column-3{
   /* padding-left: 100px; */
-}
-.copyright-div{
-  text-align: center;
-  padding-top: 80px;
-  padding-left: 180px;
-}
-.copyright{
-  color: white;
-  font-size: 0.9em;
-}
-.credits{
-  color:#f6f5f5;
-  font-size: 0.7em;
 }
 
 /* 100% Image Width on Smaller Screens */
