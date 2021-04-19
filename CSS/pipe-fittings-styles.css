@@ -40,10 +40,10 @@ hr{
   margin-left: 25%;
 }
 .nav-link{
-  display:inline-block;
+  /* display:inline-block; */
   word-wrap: break-word;
   font-size: 1em;
-  display: inline-flex;
+  /* display: inline-flex; */
 }
 #product-info-section{
 

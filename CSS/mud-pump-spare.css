@@ -28,7 +28,7 @@
   display:inline-block;
 
   height: 700px;
-  top: 0px;
+  top: 0;
   /* z-index: 1; */
 
 }
@@ -43,6 +43,10 @@ hr{
   /* display:inline-block; */
   word-wrap: break-word;
   font-size: 1em;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  padding-top: 20px;
   /* display: inline-flex; */
 }
 #product-info-section{
@@ -71,6 +75,15 @@ hr{
   padding: 20px 0 20px 0;
 }
 #product-2{
+  padding: 10px 0 10px 0;
+}
+#product-3{
+  padding: 10px 0 10px 0;
+}
+#product-4{
+  padding: 10px 0 10px 0;
+}
+#product-5{
   padding: 10px 0 10px 0;
 }
 .product-info{
