@@ -25,6 +25,9 @@ hr{
 .nav-link{
   font-family: 'Montserrat', sans-serif;
 }
+.dropdown-item{
+  font-family: 'Montserrat', sans-serif;
+}
 .btn{
   font-family: 'Montserrat', sans-serif;
   box-shadow: 1.5px 1.5px 2px black;
@@ -35,6 +38,18 @@ hr{
   padding: 10px 0 10px 20px;
   font-family: 'Bodoni Moda', serif;
   font-size: 4em;
+
+}
+.carousel-caption{
+  text-align: center;
+}
+.carousel-item-name{
+  color:  #1F3C88;
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+
+
 
 }
 .hero-sub-heading{
@@ -83,8 +98,9 @@ hr{
 #hero-section{
   background-color: #070d59;
   background-image: linear-gradient(to right,#070d59 , #1F3C88);
-  height: 100vh;
+  height: 100%;
   padding-top: 120px;
+  padding-bottom: 50px;
 }
 .carousel-indicators li {
   background-color: #070d59;
@@ -135,8 +151,11 @@ hr{
 .section-headings-div{
   text-align: center;
 }
+.see-more-button-div{
+  text-align: center;
+}
 .see-more-buttons{
-  margin-left: 46%;
+  /* margin-left: 46%; */
   margin-top: 50px;
   background-color: #EE6F57;
   color: white;
@@ -163,6 +182,9 @@ hr{
 .product-card-buttons:hover{
   background-color:#EE6F57;
   border-width: 0;
+}
+.col-md-6{
+  margin: 20px 0 20px 0;
 }
 
 /* footer styles */
@@ -235,4 +257,39 @@ hr{
     width: 600px;
   }
 
+
 }
+@media screen and (max-width: 990px) {
+    #about-us{
+      padding: 0 35px 100px 35px;
+    }
+    .carousel-div{
+      /* padding: 50px 0 50px 0; */
+      margin-top: 50px;
+    }
+    #hero-hr{
+      /* margin-top: 300px; */
+    }
+    .nav-link{
+      margin-left: 20px;
+      font-size: 1.1em;
+    }
+    .section-headings{
+      font-size: 2.2em;
+    }
+    .about-us-info{
+      font-size: 1.3em;
+    }
+    .product-headings{
+      font-size: 1.5em;
+    }
+    .footer-column-1{
+      padding-left: 20px;
+    }
+    .footer-column-2{
+      padding-left: 20px;
+    }
+    .footer-column-3{
+      padding-left: 20px;
+    }
+  }
