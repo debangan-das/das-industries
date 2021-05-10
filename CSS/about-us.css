@@ -1,0 +1,193 @@
+.row{
+  margin: 0;
+}
+.navbar-logo{
+  margin-left: 20px;
+  width: 40px;
+  height: 30px;
+}
+.navbar{
+  background-color: #070d59;
+}
+.navbar-nav{
+  margin-left: auto;
+}
+.nav-link{
+  font-family: 'Montserrat', sans-serif;
+}
+.dropdown-item{
+  font-family: 'Montserrat', sans-serif;
+}
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/about-hero.jpg");
+  background-color: red;
+  height: 100vh;
+
+  /* Set a specific height */
+
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 55%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.hero-heading{
+  color: white;
+  display: inline-block;
+  /* padding: 10px 0 10px 20px; */
+  font-family: 'Bodoni Moda', serif;
+  font-size: 4em;
+  padding-left: 50px;
+}
+.about-us-info{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.4em;
+
+}
+.about-us-text{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1em;
+    padding-top: 50px;
+}
+.info-columns{
+  text-align: center;
+}
+.about-us-icons{
+  font-size: 2em;
+  color:#EE6F57;
+  padding: 10px;
+}
+.client-logo{
+  width: 70%;
+  height: auto;
+}
+.section-heading-div{
+  text-align: center;
+}
+.section-headings{
+  font-family: 'Montserrat', sans-serif;
+  padding: 50px 0 50px 0;
+  font-size: 2.5em;
+}
+.our-clients-section{
+  padding: 50px 0 50px 0;
+}
+#about-us-sec{
+  padding: 50px 0 50px 0;
+}
+.client-list{
+  padding: 50px 0 50px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#footer{
+  background-color: #070d59;
+  height: auto;
+  margin-top: 100px;
+  padding: 50px 0 50px 0;
+  font-family: 'Montserrat', sans-serif;
+
+}
+.footer-links{
+  text-decoration: none;
+  color: white;
+  margin: 20px 0 10px 0;
+  font-family: 'Montserrat', sans-serif;
+  display: block;
+  width: inherit;
+}
+.footer-links1{
+  text-decoration: none;
+  color: white;
+  margin: 30px 0 30px 0;
+  font-family: 'Montserrat', sans-serif;
+  display: inline;
+  width: inherit;
+}
+.footer-links:hover{
+  color: #EE6F57;
+}
+.footer-links1:hover{
+  color: #EE6F57;
+}
+.footer-contact-links{
+  color:white;
+  padding-top:10px;
+}
+.footer-headings{
+  color: white;
+  padding: 10px 0 10px 0;
+  font-size: 1.5em;
+
+}
+.footer-icons{
+  font-size: 1.8em;
+  padding: 0 10px 0 10px;
+}
+.footer-column-2{
+  padding-left: 90px;
+  padding-right: 0;
+}
+.footer-column-3{
+  padding-left: 0;
+}
+.copyright-div{
+  text-align: center;
+  padding-top: 80px;
+}
+.copyright{
+  color: white;
+  font-size: 0.9em;
+}
+.credits{
+  color:#f6f5f5;
+  font-size: 0.7em;
+}
+
+
+@media screen and (max-width: 990px) {
+
+    .nav-link{
+      margin-left: 20px;
+      font-size: 1.1em;
+    }
+    .section-headings{
+      font-size: 2.2em;
+    }
+    .about-us-info{
+      font-size: 1.3em;
+    }
+    .product-headings{
+      font-size: 1.5em;
+    }
+    .footer-column-1{
+      padding-left: 20px;
+    }
+    .footer-column-2{
+      padding-left: 20px;
+    }
+    .footer-column-3{
+      padding-left: 20px;
+    }
+    .client-logo{
+      padding: 10px 0 10px 0;
+      width: 50%;
+      height: 90%;
+    }
+    .client-logo-div{
+      text-align: center;
+    }
+  }

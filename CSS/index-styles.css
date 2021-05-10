@@ -84,7 +84,7 @@ hr{
   margin: 10px 10px 10px 20px;
 }
 .carousel-image{
-  width: 750px;
+  width: 700px;
 }
 .carousel-item{
   text-align: center;
@@ -256,9 +256,24 @@ hr{
   .carousel-image{
     width: 600px;
   }
+}
+@media screen and (max-width: 650px) {
+
+  .carousel-image{
+    width: 500px;
+  }
+}
+  @media screen and (max-width: 425px) {
+
+    .carousel-image{
+      width: 350px;
+    }
+
 
 
 }
+
+
 @media screen and (max-width: 990px) {
     #about-us{
       padding: 0 35px 100px 35px;
