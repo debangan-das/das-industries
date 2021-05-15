@@ -82,9 +82,10 @@
   padding: 50px 0 50px 0;
   font-size: 2.5em;
 }
-.our-clients-section{
-  padding: 50px 0 50px 0;
+#our-clients-section{
+  padding: 30px 0 50px 0;
 }
+
 #about-us-sec{
   padding: 50px 0 50px 0;
 }

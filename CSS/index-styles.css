@@ -4,8 +4,8 @@ body{
 hr{
   border: 0.5px solid #c2c2c2;
   width: 50%;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 30px;
+  margin-bottom: 20px;
   margin-left: 25%;
 }
 .row{
@@ -84,7 +84,7 @@ hr{
   margin: 10px 10px 10px 20px;
 }
 .carousel-image{
-  width: 700px;
+  width: 750px;
 }
 .carousel-item{
   text-align: center;
@@ -135,10 +135,10 @@ hr{
     padding-top: 50px;
 }
 #about-us{
-  padding: 50px 100px 25px 100px;
+  padding: 20px 100px 20px 100px;
 }
 #about-us h3{
-  padding-bottom: 50px;
+  padding-bottom: 20px;
 }
 .info-columns{
   text-align: center;
@@ -147,6 +147,18 @@ hr{
   font-size: 2em;
   color:#EE6F57;
   padding: 10px;
+}
+.client-logo{
+  width: 70%;
+  height: auto;
+}
+#our-clients-section{
+  /* padding: 50px 0 50px 0; */
+}
+.our-clients-heading{
+  font-family: 'Montserrat', sans-serif;
+  padding: 50px 0 50px 0;
+  font-size: 2em;
 }
 .section-headings-div{
   text-align: center;
@@ -165,8 +177,8 @@ hr{
 }
 .product-headings-div{
   text-align: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 .product-headings{
   font-family: 'Open Sans', sans-serif;
@@ -174,9 +186,13 @@ hr{
   font-weight: bold;
 }
 .product-card-buttons{
-  background-color: white;
-  border-radius: 50px;
+  /* background-color: white;
+  border-radius: 50px; */
 
+  background-color: #070d59;
+  color: white;
+  border-radius: 50px;
+  border-width: 0;
 
 }
 .product-card-buttons:hover{
@@ -266,7 +282,7 @@ hr{
   @media screen and (max-width: 425px) {
 
     .carousel-image{
-      width: 350px;
+      width: 300px;
     }
 
 
@@ -306,5 +322,13 @@ hr{
     }
     .footer-column-3{
       padding-left: 20px;
+    }
+    .client-logo{
+      padding: 10px 0 10px 0;
+      width: 50%;
+      height: 90%;
+    }
+    .client-logo-div{
+      text-align: center;
     }
   }
