@@ -58,7 +58,7 @@ hr{
 #product-info-section{
 
   margin-left: 350px;
-  display: inline-block;
+  /* display: inline-block; */
   position: relative;
   margin-top: 100px;
 
@@ -88,6 +88,8 @@ hr{
 }
 .place-order-div{
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
 }
 .contact-us-buttons{
   background-color: #EE6F57;
